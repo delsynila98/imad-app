@@ -14,7 +14,7 @@ app.get('article-one',function (req,res){
 });
 
 app.get('article-two',function (req,res){
-  res_send('Article-two requested and wll be served here');    
+  res_send('article-two requested and wll be served here');    
 });
 
 app.get('article-three',function (req,res){
